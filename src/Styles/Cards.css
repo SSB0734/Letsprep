@@ -1,0 +1,61 @@
+.cards-cl1 {
+  width: 100%;
+  float: left;
+  /* margin: 2%; */
+  /* margin-left: 2%; */
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+  /* margin-left: 2%; */
+  /* margin-right: 2%; */
+}
+/* .cards-cl2 {
+  width: 85% !important;
+} */
+.coursesHeading {
+  /* font-size: xx-large; */
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cards-cl1 {
+    width: 80%;
+    /* float: left; */
+    /*margin: 0 auto;*/
+    margin-left: 9.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+    /* margin-left: 2%; */
+    /* margin-right: 2%; */
+  }
+}
+.card-img-top {
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
+  min-width: 100%;
+  height: 150px;
+}
+.card {
+
+  border-radius: calc(1rem - 1px);
+}
+#pencil-on-hover-for-edit{
+  display: none;
+}
+.card:hover  #pencil-on-hover-for-edit {
+  display: block;
+}
+.shadow2 {
+  box-shadow: 0 7px 30px -10px rgba(7, 95, 139, 0.5);
+}
+.shadow1 {
+  box-shadow: 0 5px 10px rgba(58, 81, 173, 0.05),
+    0 15px 40px rgba(19, 48, 165, 0.2);
+}
+.cards-blogs-cl1{
+  margin: 10px 0px 10px 0px;
+}

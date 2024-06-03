@@ -1,0 +1,206 @@
+.cbutton{
+  margin: 0 15px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+  background: white;
+  background: rgb(82, 245, 82);
+  color: black;
+}
+.videoPlayerMainDiv{
+  height: 89vh;
+  background: black;
+  /* width: 100%; */
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+  background-color: black !important;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+  color:white !important;
+}
+
+
+.videoplayerbuttons {
+  display: flex;
+  /* margin-left: 50%; */
+
+}
+.videoplayerbuttonsdiv1 {
+}
+.videoplayerbuttonsdiv2 {
+}
+.prevbutton {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+  background: white;
+}
+.prevbutton:hover {
+  background: yellow;
+  color: black;
+}
+.nextbutton {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+  background: white;
+}
+.nextbutton:hover {
+  background: rgb(98, 198, 211);
+  color: black;
+}
+.macbutton {
+  margin: 0 15px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+  background: white;
+}
+.macbutton:hover {
+  background: rgb(82, 245, 82);
+  color: black;
+}
+.videoplayerbuttonsmobile{
+  display: none;
+}
+
+.taplink{
+  padding: 5px 0px 5px 15px;
+  cursor: pointer;
+  /* display: flex;
+  align-items: center; */
+  list-style-position: inside;
+  border: white solid 1px;
+  color: gray;
+}
+.taplink:hover {
+  color: black;
+  border: black solid 1px;
+  background:#fff;
+}
+
+@media screen and (max-width: 768px) {
+  .videoplayerbuttonsmobile{
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  .videoPlayerMainDiv{
+    height:100%;
+  }
+  .videoplayerbuttons {
+    
+    display: none;
+  }
+  .videoplayerbuttonsdiv2 {
+  }
+  .prevbutton,
+  .macbutton,
+  .nextbutton {
+    font-size: 12px;
+  }
+  /* .rightcol {
+    display: none;
+  }
+  .mobileupcol {
+    display: block;
+  }
+  .leftcol {
+    margin-top: 30px;
+    height: 110px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+  } */
+  
+}
+
+
+
+
+
+/* .coursevideomain {
+  color: white;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+.coursevideo1 {
+  min-width: 100% !important;
+}
+.coursevideo2 {
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.titlediv {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+.videosdiv {
+}
+.leftcol {
+  height: 100vh;
+  background: rgb(32, 32, 32);
+}
+.cvideocl2 {
+  max-height: 70vh;
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+
+
+  flex: auto;
+  text-align: justify;
+}
+.cvideocl3 {
+  max-height: 92.3vh;
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+
+  flex: auto;
+  text-align: justify;
+}
+.rightcol {
+  height: 100vh;
+  background: rgb(109, 108, 108);
+}
+.rightcoldiv1 {
+  height: 100%;
+  padding: 1%;
+}
+.rightcoldiv1embed {
+}
+.mobileupcol {
+  display: none;
+} */
+

@@ -1,0 +1,18 @@
+.roadMapCard{
+    transition: background .8s;
+    border: 1px solid #ecedef;
+    box-sizing: border-box;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 0 8px 12px 0;
+    padding: 6px 16px;
+    cursor: pointer;
+    background: #fff;
+    background-position: 50%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.roadMapCard:hover{
+    background: #c9c9c9;
+}

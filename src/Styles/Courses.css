@@ -1,0 +1,36 @@
+.mainCourseDiv{
+  background: rgb(243, 247, 247);
+
+}
+.coursesdiv1{
+  margin-top: 20px;
+}
+.coursesdiv2{
+  margin-top: 30px;
+}
+.courses-cl1 {
+  /* padding: 2rem;
+     */
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 2%; */
+}
+.coursesdiv1heading{
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 10px;
+  color: darkgrey;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .courses-cl2 {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.shadow1 {
+  box-shadow: 0 5px 10px rgba(58, 81, 173, 0.05),
+    0 15px 40px rgba(19, 48, 165, 0.2);
+}

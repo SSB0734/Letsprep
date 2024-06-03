@@ -1,0 +1,25 @@
+.profilemaindiv{
+    background: rgb(243, 247, 247);
+}
+.profilecard {
+    background-color: white;
+    margin-top: 16px;
+    padding: 20px;
+    box-shadow: rgba(231, 232, 233, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10px;
+    /* font-family:; */
+}
+.userinfo_div{
+    /* font-size: 16px; */
+    font-weight: 600;
+}
+
+.profilefields{
+    box-shadow: rgba(231, 232, 233, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    /* justify-content: space-between; */
+}

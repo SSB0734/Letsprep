@@ -1,0 +1,117 @@
+.mainDivCourseDetail {
+  background-color: rgb(29, 29, 29);
+  /* height: 92.3vh; */
+}
+.ixpmain {
+  background-color: rgb(29, 29, 29);
+  padding: 2%;
+  display: flex;
+}
+.courseImageDiv {
+  width: 40%;
+  /* height: 200px; */
+  padding: 2%;
+}
+.courseImage {
+  /* width: 20rem; */
+
+  max-width: 100%;
+}
+.courseDescription {
+  width: 60%;
+  padding: 2%;
+  color: white;
+}
+.courseDescriptionTitle {
+  font-size: 1.5vw;
+  text-align: center;
+  color: rgb(42, 184, 14);
+}
+.courseDescriptionContent {
+  font-size: 1.3vw;
+  text-align: justify;
+}
+.enrollCoursesbutton {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+  background: transparent;
+  margin: 10px 0;
+}
+.enrollCoursesbutton:hover {
+  background: white;
+  color: black;
+}
+
+.coursedetailsecondmaindiv1{
+  color: white;
+}
+.syllabus {
+  background: rgb(29, 29, 29);
+}
+.syl{
+  color: azure;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+hr.style-seven {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: rgb(253, 250, 250);
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+/* .container-sm {
+  max-width: 700px;
+} */
+
+@media screen and (max-width: 768px) {
+
+  .ixpmain {
+    flex-direction: column;
+  }
+  .courseImageDiv {
+    width: 100% !important;
+    /* height: 200px; */
+    padding: 5%;
+    /* justify-content: center;
+        align-content: center; */
+  }
+  .courseImage {
+    /* width: 20rem; */
+    margin: 0 auto;
+    /* align-self: center; */
+    max-width: 100%;
+  }
+  .courseDescription {
+    width: 100%;
+    padding: 2%;
+  }
+  .courseDescriptionTitle {
+    font-size: 3vw;
+    text-align: center;
+  }
+  .courseDescriptionContent {
+    font-size: 2.5vw;
+    text-align: justify;
+  }
+  
+
+}

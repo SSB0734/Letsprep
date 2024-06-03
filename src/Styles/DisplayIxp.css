@@ -1,0 +1,68 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.headingdixp {
+  font-weight: bold;
+  color: black;
+  font-size: x-large;
+  /* margin: 5px; */
+}
+
+.btn-outline-secondary {
+  color: black;
+  border-color: #6c757d;
+}
+
+.masterdixp {
+  margin-top: 20px;
+  border-radius: 10px;
+  /* border: 2px solid; */
+  padding: 20px;
+  background-color: #ededeec9;
+}
+.authordixp {
+  color: rgb(22, 109, 19);
+  font-weight: 500;
+  /* margin: 5px; */
+}
+.descriptiondixp {
+  /* margin: 5px; */
+  color: black;
+}
+.btn-linkedin {
+  background: #0a66c2;
+  border-radius: 2;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
+}
+.btn-linkedin:link,
+.btn-linkedin:visited {
+  color: #fff;
+}
+.btn-linkedin:active,
+.btn-linkedin:hover {
+  background: #084461;
+  color: #fff;
+}

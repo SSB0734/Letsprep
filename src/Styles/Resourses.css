@@ -1,0 +1,64 @@
+ 
+ #jatinresources_main{
+  min-width: 320px;
+  max-width:100%;
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+} 
+.jatinresources_section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+.jatinresources_input {
+  display: none;
+}
+
+.jatinresources_label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+
+
+.jatinresources_label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.jatinresources_input:checked + .jatinresources_label {
+  color: rgb(45, 89, 175);
+  border: 1px solid #ddd;
+  border-top: 2px solid rgb(12, 91, 238);
+  border-bottom: 1px solid #fff;
+}
+
+#jatinresources_tab1:checked ~ #jatinresources_content1,
+#jatinresources_tab2:checked ~ #jatinresources_content2,
+#jatinresources_tab3:checked ~ #jatinresources_content3,
+#jatinresources_tab4:checked ~ #jatinresources_content4 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  .jatinresources_label {
+    font-size: 0;
+  }
+
+  .jatinresources_label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .jatinresources_label {
+    padding: 15px;
+  }
+}
