@@ -1,0 +1,10 @@
+Sitemap: https://stage.cutq.xyz/sitemap.xml
+
+User-agent: *
+Disallow: /addblog
+Disallow: /add-job-openings
+Disallow: /validate-job
+Disallow: /validate-ie
+Disallow: /add-interview-experience
+Disallow: /addcourse
+Disallow: /SignUp
