@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+# We are no longer maintaining the web application. I have pushed the code in this repository to make it available to the public. The original repository is private. Link to original repository:
+# https://github.com/jatin-karla11/letsprep
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
